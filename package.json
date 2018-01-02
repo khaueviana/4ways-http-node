@@ -1,23 +1,24 @@
 {
-  "name": "4ways-http-node",
-  "version": "1.0.0",
-  "description": "Using: https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c524f999942d",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khaueviana/4ways-http-node.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/khaueviana/4ways-http-node/issues"
-  },
-  "homepage": "https://github.com/khaueviana/4ways-http-node#readme",
-  "dependencies": {
-    "node-fetch": "^1.7.3",
-    "request": "^2.83.0"
-  }
+    "name": "4ways-http-node",
+    "version": "1.0.0",
+    "description": "Using: https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c524f999942d",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/khaueviana/4ways-http-node.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/khaueviana/4ways-http-node/issues"
+    },
+    "homepage": "https://github.com/khaueviana/4ways-http-node#readme",
+    "dependencies": {
+        "axios": "^0.17.1",
+        "node-fetch": "^1.7.3",
+        "request": "^2.83.0"
+    }
 }
