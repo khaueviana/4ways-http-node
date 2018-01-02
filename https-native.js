@@ -1,5 +1,5 @@
 const https = require("https");
-const url = "https://maps.googleapis.com/maps/api/geocode/json?address=Florence";
+const url = "https://maps.googleapis.com/maps/api/geocode/json?address=Florence&key=AIzaSyDx0u4oiaZACE2gQgIM3BxmA_4a1NVMrcQ";
 
 https.get(url, res => {
     res.setEncoding("utf8");
